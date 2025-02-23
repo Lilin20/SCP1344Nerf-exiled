@@ -19,3 +19,6 @@ The configuration file `Config.cs` offers the following settings:
 
 ## Usage
 After installation and configuration, the plugin will be automatically activated. The effects will be applied according to the configuration settings.
+
+## Demo
+![demo](https://cdn.discordapp.com/attachments/1100170046958993438/1343293945148473365/image.png?ex=67bcbf79&is=67bb6df9&hm=d0b2df4132fb0807ebc31c4dc76526dfe679d3f0a333059627e4d31857641a5e&)
