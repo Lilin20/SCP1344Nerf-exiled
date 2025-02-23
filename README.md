@@ -19,10 +19,3 @@ The configuration file `Config.cs` offers the following settings:
 
 ## Usage
 After installation and configuration, the plugin will be automatically activated. The effects will be applied according to the configuration settings.
-
-## Author
-- **Name**: Lilin
-- **Version**: 1.0.0
-
-## License
-This project is licensed under the MIT License. For more information, see the `LICENSE` file.
