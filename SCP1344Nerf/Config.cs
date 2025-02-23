@@ -19,6 +19,6 @@ namespace SCP1344Nerf
 
         [Description("Enables and sets the min. cap of blindness intensity which is reached after a couple of seconds.")]
         public bool UseNewBlindnessCap { get; set; } = false;
-        public int NewBlindnessCap {  set; get; } = 40;
+        public int NewBlindnessCap {  set; get; } = 15;
     }
 }
