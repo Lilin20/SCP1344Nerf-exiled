@@ -14,8 +14,9 @@ The configuration file `Config.cs` offers the following settings:
 - `Debug`: Enables or disables debug logs.
 - `UseFogControl`: Enables the fog effect when wearing the glasses.
 - `FogControlValue`: Value for the fog effect. (default: 5)
-- `UseNewBlindnessCap`: Enables the adjustment of blindness intensity.
+- `UsePatches`: Enables the patches.
 - `NewBlindnessCap`: Minimum value for the blindness intensity. (default: 15 - the vanilla cap.)
+- `EnableScp1344EffectPatch`: Enables the specific patch for the goggles model on a player.
 
 ## Usage
 After installation and configuration, the plugin will be automatically activated. The effects will be applied according to the configuration settings.
