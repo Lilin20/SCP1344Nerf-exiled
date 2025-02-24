@@ -30,7 +30,7 @@ namespace SCP1344Nerf
                 Exiled.Events.Handlers.Scp1344.ChangedStatus += _eventHandler.OnWearingGlasses;
             }
 
-            if (Config.UseNewBlindnessCap)
+            if (Config.UsePatches)
             {
                 Log.Debug("Patching the glasses...");
                 harmony.PatchAll();
@@ -47,7 +47,7 @@ namespace SCP1344Nerf
                 Exiled.Events.Handlers.Scp1344.ChangedStatus -= _eventHandler.OnWearingGlasses;
             }
 
-            if (Config.UseNewBlindnessCap)
+            if (Config.UsePatches)
             {
                 harmony.UnpatchAll();
             }

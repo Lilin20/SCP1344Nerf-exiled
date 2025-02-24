@@ -18,7 +18,10 @@ namespace SCP1344Nerf
         public int FogControlValue { get; set; } = 5;
 
         [Description("Enables and sets the min. cap of blindness intensity which is reached after a couple of seconds.")]
-        public bool UseNewBlindnessCap { get; set; } = false;
+        public bool UsePatches { get; set; } = true;
         public int NewBlindnessCap {  set; get; } = 15;
+
+        [Description("Enables the glasses when only the effect was given via RA or code (EffectType.Scp1344)")]
+        public bool EnableScp1344EffectPatch { get; set; } = true;
     }
 }

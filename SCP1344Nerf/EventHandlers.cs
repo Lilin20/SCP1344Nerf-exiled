@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Exiled.API.Enums;
+using Exiled.API.Features.Items;
 using Exiled.Events.EventArgs.Scp1344;
 
 namespace SCP1344Nerf
