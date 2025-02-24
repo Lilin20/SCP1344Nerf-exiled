@@ -14,7 +14,7 @@ namespace SCP1344Nerf
 
         public override string Name => "Lilin's SCP-1344 Nerf";
         public override string Author => "Lilin";
-        public override Version Version => new Version(1, 0, 0);
+        public override Version Version => new Version(1, 1, 0);
 
         private EventHandlers _eventHandler;
         public Harmony harmony = new Harmony("lilin.scp1344patches");
